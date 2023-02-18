@@ -353,18 +353,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
-        <div>
+        <div className={styles.centered}>
           <h1 className={styles.title}>Welcome to levimilli&apos;s nft collection!</h1>
           <div className={styles.description}>
             Its an NFT collection for developers in Crypto.
           </div>
           <div className={styles.description}>
             {tokenIdsMinted}/20 have been minted
+  
           </div>
+          
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./cryptodevs/0.svg" />
+          <img className={styles.image} src="https://media.tenor.com/oP-aF8ZesJQAAAAC/eth-ethereum.gif" />
         </div>
       </div>
 
